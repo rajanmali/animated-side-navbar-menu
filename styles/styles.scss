@@ -414,8 +414,8 @@ a {
   }
 
   & .link__text {
-    width: 0;
-    opacity: 0;
+    width: 0 !important;
+    opacity: 0 !important;
   }
 
   & .chat__alert {

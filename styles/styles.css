@@ -512,8 +512,8 @@ a {
 }
 
 .menu.active .link__text {
-  width: 0;
-  opacity: 0;
+  width: 0 !important;
+  opacity: 0 !important;
 }
 
 .menu.active .chat__alert {
