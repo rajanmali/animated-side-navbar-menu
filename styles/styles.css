@@ -512,14 +512,14 @@ a {
   background-repeat: no-repeat;
   outline: none;
   cursor: pointer;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .menu__footer .up-down-btn:hover {
   background-color: #2a2b2f;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .menu.active .menu__footer {
