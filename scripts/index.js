@@ -9,7 +9,13 @@ openBtn.addEventListener('click', () => {
 });
 
 searchBtn.addEventListener('click', () => {
-  !!menu.classList.contains('active') && menuScale();
+  if (!!menu.classList.contains('active')) {
+    menuScale();
+    buttonRotate();
+    searchInput.focus();
+  } else {
+    searchInput.focus();
+  }
 });
 
 searchInput.addEventListener('keypress', (event) => {
