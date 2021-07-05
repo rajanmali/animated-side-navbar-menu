@@ -244,6 +244,8 @@ a {
   color: #fff;
   outline: none;
   font-size: 1.2rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .search .search__input::-webkit-input-placeholder {
@@ -268,6 +270,10 @@ a {
   color: #3e3e3e;
   font-weight: 500;
   font-size: 1.2rem;
+}
+
+.search .search__input:focus {
+  border: 3px solid #5d5d5f;
 }
 
 .search .search__right {
