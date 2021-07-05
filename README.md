@@ -1,1 +1,1 @@
-https://animated-side-navbar-menu.vercel.app/
+Demo: https://animated-side-navbar-menu.vercel.app/
